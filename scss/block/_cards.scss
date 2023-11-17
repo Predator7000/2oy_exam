@@ -1,0 +1,198 @@
+.cards_item {
+    max-width: 282px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    padding: 16px 8px;
+    width: 100%;
+}
+
+.cards_icons {
+    width: 24px;
+    height: 24px;
+}
+
+.cards {
+    padding: 30px 0px;
+}
+
+.cards_stars {
+    width: 116px;
+    height: 47px;
+}
+
+.cards_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.cards_list_number {
+    color: var(--prime, #0071E4);
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 126px;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 116px;
+        height: 47px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url(/img/cards_stars.svg);
+        left: 0;
+    }
+}
+
+.cards_main_title {
+    color: $black;
+    font-size: 48px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_main_text {
+    color: $prime;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.cards_img {
+    margin-bottom: 16px;
+    width: 266px;
+    height: 288px;
+}
+
+.card_title {
+    color: $black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.cards_garant_text {
+    color: $dimNavy;
+    font-size: 16px;
+    padding-left: 21px;
+    font-weight: 500;
+    position: relative;
+}
+
+.cards_garant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.cards_garant_text_2 {
+    color: $dimNavy;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cards_garant_text::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-image: url(/img/cards_garant_green.svg);
+    left: 0;
+}
+
+.cards_number {
+    color: var(--05, #878787);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.cards_cash_2 {
+    color: $black;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.cards_cash {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+
+.cards_trash_btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: $prime;
+    padding: 17px 77px 17px 108px;
+    text-wrap: nowrap;
+    border: none;
+    position: relative;
+}
+
+.cards_trash_btn::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/cards-btn_trash.svg);
+    background-repeat: no-repeat;
+    left: 72px;
+    top: 15px;
+}
+
+
+.cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.cards_text_8 {
+    color: $dimGrey;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 9px;
+    margin-left: 21px;
+    position: relative;
+}
+
+.cards_text_3 {
+    color: #878787;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.cards_btn_2 {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid var(--prime, #0071E4);
+    color: var(--prime, #0071E4);
+    font-size: 18px;
+    padding: 16px 28px;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+
+.cards_text_8::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-image: url(/img/cards_garant_green.svg);
+    left: -20px;
+
+}
